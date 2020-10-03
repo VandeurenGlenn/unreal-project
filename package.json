@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/VandeurenGlenn/unreal-project.git"
   },
-  "keywords": [],
+  "keywords": ["unreal", "js", "project"],
   "author": "",
   "license": "MIT",
   "bugs": {
