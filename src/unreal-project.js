@@ -17,6 +17,11 @@ const cp = (from, to) => execSync(`cp ${from} ${to} -r`)
 
 export default async root => {
   
+  if (!hasTemplate(true)) {
+    spinner.text = 'Downloading template files'
+    await downloadZip('https://github.com/VandeurenGlenn/unreal-project/releases/download/v1.0.0/template.7z', templatePath('../'), { extract: false })
+  }
+  
   if (!hasUnrealJS(true)) {
     spinner.text = 'Downloading & extracting UnrealJS'
     await download('https://github.com/ncsoft/Unreal.js-core/archive/master.zip', templatePath(`Plugins/UnrealJS`))

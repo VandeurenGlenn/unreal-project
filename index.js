@@ -31,7 +31,6 @@ var downloadRepo = (url, dest) => downloadZip(url, dest, { extract: true, strip:
  * extract('master.zip', 'master')
  */
 var extract = (src, dest) => new Promise((resolve, reject) => {
-  spinner.prefixText = 'Extracting';
   new Zip__default['default']().extractFull(src, dest)
   .progress(files => spinner.text(`extracting ${files}`))
   .then(() => resolve())
@@ -95,6 +94,10 @@ const os = os$1.platform();
 const cp = (from, to) => child_process.execSync(`cp ${from} ${to} -r`);
 
 var unrealProject = async root => {
+  
+  if (!hasTemplate(true)) {
+    await downloadZip('https://github.com/VandeurenGlenn/unreal-project/releases/download/v1.0.0/template.7z', templatePath('../'), { extract: false });
+  }
   
   if (!hasUnrealJS(true)) {
     spinner.text = 'Downloading & extracting UnrealJS';
