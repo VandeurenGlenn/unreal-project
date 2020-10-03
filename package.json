@@ -1,6 +1,6 @@
 {
   "name": "unreal-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/VandeurenGlenn/unreal-project.git"
   },
-  "keywords": ["unreal", "js", "project"],
+  "keywords": [
+    "unreal",
+    "js",
+    "project"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
