@@ -1,3 +1,10 @@
+[![Build Status](https://img.shields.io/travis/VandeurenGlenn/unreal-project/master.svg?style=for-the-badge)](https://travis-ci.org/vandeurenglenn/multi-wallet)
+[![npm](https://img.shields.io/npm/dt/unreal-project.svg?style=for-the-badge)](https://www.npmjs.com/package/unreal-project)
+[![David](https://img.shields.io/david/vandeurenglenn/unreal-project.svg?style=for-the-badge)](https://github.com/vandeurenglenn/unreal-project)
+[![npm](https://img.shields.io/npm/v/unreal-project.svg?style=for-the-badge)](https://www.npmjs.com/package/unreal-project)
+[![node](https://img.shields.io/node/v/unreal-project?style=for-the-badge)]((https://www.npmjs.com/package/unreal-project))
+
+
 # unreal-project
 
 > A starter template with UnrealJS included

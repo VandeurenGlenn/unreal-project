@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/VandeurenGlenn/unreal-project.git"
   },
+  "engines": {
+    "node": ">=12.0"
+  },
   "keywords": [
     "unreal",
     "js",
