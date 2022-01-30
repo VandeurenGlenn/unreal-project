@@ -35,7 +35,7 @@
     "decompress": "^4.2.1",
     "download": "^8.0.0",
     "node-7z-forall": "^1.0.6",
-    "ora": "^5.1.0",
+    "ora": "^5.4.1",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
