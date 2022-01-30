@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/VandeurenGlenn/unreal-project#readme",
   "dependencies": {
-    "commander": "^6.1.0",
+    "commander": "^6.2.1",
     "copy-dir": "^1.3.0",
     "cpy": "^8.1.1",
     "decompress": "^4.2.1",
